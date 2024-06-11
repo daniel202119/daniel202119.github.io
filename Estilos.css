@@ -1,0 +1,144 @@
+/* DEFINICION DE ESTILOS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #020200;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+a:hover {
+    color: #21212F;
+}
+
+.navbar {
+    background-color: rgba(54, 2, 80, 1.9);
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar-nav {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item {
+    margin: 0 1rem;
+}
+
+.nav-link {
+    color: #ecf0f1;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.header-container {
+    text-align: center;
+    padding: 4rem 0;
+    background-color: rgba(236, 240, 241, 0.85);
+    margin-top: 5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.header-container p {
+    font-size: 1.2rem;
+    color: #0B0C11;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 2rem;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    border-collapse: collapse;
+}
+
+.table-bordered {
+    border: 1px solid #ddd;
+}
+
+.table-bordered th,
+.table-bordered td {
+    border: 1px solid #ddd;
+    padding: 0.75rem;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table-bordered th {
+    background-color: #f8f8f8;
+    color: #333;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.table-bordered td {
+    background-color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.table-bordered tr:hover td {
+    background-color: #f1f1f1;
+}
+
+.table img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: rgba(54, 2, 80, 1.9);
+    color: #ecf0f1;
+    margin-top: 2rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 2rem 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
